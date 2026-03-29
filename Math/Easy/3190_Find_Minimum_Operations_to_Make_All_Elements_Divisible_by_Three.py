@@ -1,7 +1,7 @@
 class Solution:
     def minimumOperations(self, nums: List[int]) -> int:
 
-        # If a number is divisible by ri without a remainder, then we don't work with this number in the loop. 
+        # If a number is divisible by 3 without a remainder, then we don't work with this number in the loop. 
 
         # If a number is divisible by three with only a remainder, then we can get either 1 or 2 as a remainder. 
 
