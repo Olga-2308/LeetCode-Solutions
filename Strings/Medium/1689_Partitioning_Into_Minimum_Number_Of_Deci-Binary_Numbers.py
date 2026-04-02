@@ -15,6 +15,8 @@ class Solution:
 #   00001
 # 
 # The maximum number is obtained:
+#
+#   11111
 # 
 # It turns out that with each new addition of a deci-binary number, the decimal place of the number increases by 1.
 # 
