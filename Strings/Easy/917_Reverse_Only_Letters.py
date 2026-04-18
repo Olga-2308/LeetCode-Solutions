@@ -17,7 +17,8 @@ class Solution:
         l = list(s)
         indx = 0
 
-        # 
+        # We create a loop in which we replace each letter with a letter from the created and reversed string. 
+        # We also increment the index variable by 1 to move to the next letter.
         for i in range(len(l)):
             if l[i] .isalpha():
                 l[i] = revers_chars[indx]
