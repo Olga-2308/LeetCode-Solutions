@@ -41,5 +41,5 @@ class Solution:
         elif password[-1] in special_chars:
                 count_special += 1
 
-        # The password is only suitable if all conditions are met.
+        # The password is only suitable if all conditions are met
         return count_low > 0 and count_upper > 0 and count_digit > 0 and count_special > 0
