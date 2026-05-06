@@ -80,6 +80,9 @@ class Solution:
                 # But since a real string is taken as 1, and indexing starts at 0,
                 # then 1 is added to the minimum index (0 + 1 = 1).
                 # It turns out that in this iteration, we can only create one substring [abc]
+
+                # (1) Minimum possible string: [abc]
+                # Additional string: -
                 
 
                 # i = 3
@@ -91,8 +94,8 @@ class Solution:
                 # that appear before (to the left) the minimum index. The minimum index is 1,
                 # therefore, there is only one character at index 0 that can form a new substring.
 
-                # Minimum possible string: [bca]
-                # Additional string: a[bca]
+                # (2) Minimum possible string: [bca]
+                # (3) Additional string: a[bca]
 
                 # We were able to form 2 strings on the current loop iteration.
                 # The formula yields: 1 (minimum index) + 1 = 2
@@ -101,10 +104,19 @@ class Solution:
                 # i = 4
                 # [abcab] At this iteration, we have 5 character in the string,
                 # so we update the value in the dictionary: indx = {'a': 3, 'b': 4, 'c':2}
+
+                # (4) Minimum possible string: [cab]
+                # (5) Additional string: b[cab]
+                # (6) Additional string: ab[cab]
                 
                 
                 # i = 5
                 # [abcabc] At this iteration, we have 6 character in the string,
                 # so we update the value in the dictionary: indx = {'a': 3, 'b': 4, 'c':5}
+
+                # (7) Minimum possible string: [abc]
+                # (8) Additional string: c[abc]
+                # (9) Additional string: bc[abc]
+                # (10) Additional string: abc[abc]
 
         return counter
