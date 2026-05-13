@@ -7,7 +7,6 @@ class Solution:
         # Initially, we'll assign each letter a value of -1, since string indexing starts at 0.
         indx = {'a': -1, 'b': -1, 'c':-1}
 
-        #
         for i in range(len(s)):
 
             # If the character a, b, or c is encountered during the iteration, 
