@@ -1,7 +1,8 @@
 class Solution:
     def findIndices(self, nums: List[int], indexDifference: int, valueDifference: int) -> List[int]:
         '''
-        Using a nested loop, we find pairs of numbers that match the conditions of the problem
+        Using a nested loop, we find pairs of numbers 
+        that match the conditions of the problem
         '''
 
         for i in range(len(nums)):
