@@ -9,4 +9,5 @@ class Solution:
             for j in range(len(nums)):
                 if abs(nums[i] - nums[j]) >= valueDifference and abs(i - j) >= indexDifference:
                     return [i, j]
+                
         return [-1, -1]
