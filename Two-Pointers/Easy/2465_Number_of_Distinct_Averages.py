@@ -13,7 +13,6 @@ class Solution:
         i = 0
         j = len(nums) - 1
 
-
         while i < j:
 
             # add the mean value to the set
