@@ -7,7 +7,6 @@ class Solution:
 
         # the cycle continues until all the candies are distributed
         while candies > 0:
-
             for i in range(0, num_people):
 
                 # If in the current iteration the number of candies 
